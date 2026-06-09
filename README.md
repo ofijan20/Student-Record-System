@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Student Record Management System
 
 This project is built using Java OOP and File I/O.
@@ -18,3 +19,6 @@ How it works:
 - Data can be saved and loaded from different file types
 - FileManager handles file creation and backup
 - ReportGenerator calculates GPA statistics
+=======
+# Student-Record-System
+>>>>>>> 7bb04a17c5a3cde496ae19f1f237296cfcf6e7bb
