@@ -1,0 +1,275 @@
+
+Project Title: Student Record System
+Course: Object-Oriented Programming (Java)
+Prepared By: Ofijan Endale
+Student ID: 0302/25
+Date: Tuesday, June 16, 2026
+
+Table of Contents
+Introduction
+Problem Statement
+Objectives
+Scope of the Project
+System Requirements
+Development Tools
+System Analysis
+System Design
+Object-Oriented Programming Concepts Used
+System Modules
+Class Description
+Method Description
+System Flow
+Testing
+Advantages
+Limitations
+Future Enhancements
+Conclusion
+References
+1. Introduction
+
+The Student Record System is a Java-based application developed to manage student information efficiently. It allows users to add, search, update, delete, and display student records. The project applies Object-Oriented Programming (OOP) concepts to create a well-structured and maintainable system.
+
+2. Problem Statement
+
+Managing student records manually is time-consuming and can lead to errors such as lost files, duplicate records, and inaccurate information. Educational institutions need a computerized system that stores and manages student records efficiently.
+
+3. Objectives
+General Objective
+
+To develop a Student Record System using Java and Object-Oriented Programming principles.
+
+Specific Objectives
+Add new student records.
+Search for students using their ID.
+Update student information.
+Delete student records.
+Display all stored student records.
+Practice and demonstrate Java OOP concepts.
+4. Scope of the Project
+
+The Student Record System performs the following tasks:
+
+Register new students.
+Store student information.
+Search student records.
+Update existing records.
+Delete student records.
+Display all student records.
+
+The project is designed as a console-based Java application.
+
+5. System Requirements
+Hardware Requirements
+Computer or Laptop
+Minimum 4 GB RAM
+Intel Core i3 Processor or higher
+Keyboard and Monitor
+Software Requirements
+Java Development Kit (JDK)
+Visual Studio Code, IntelliJ IDEA, or Eclipse
+Git
+GitHub
+Windows, Linux, or macOS
+6. Development Tools
+Tool	Purpose
+Java	Programming language
+VS Code / IntelliJ / Eclipse	Code development
+Git	Version control
+GitHub	Source code hosting
+7. System Analysis
+Input
+
+The system accepts the following information:
+
+Student ID
+Student Name
+Age
+Department
+GPA (if included)
+Processing
+
+The system:
+
+Validates user input.
+Stores student information.
+Searches records.
+Updates records.
+Deletes records.
+Displays records.
+Output
+
+The system displays:
+
+Student information.
+Success or error messages.
+Updated student records.
+Menu options.
+8. System Design
+
+The application is divided into different classes, each responsible for a specific task.
+
+Main Class
+
+Displays the menu and controls program execution.
+
+Student Class
+
+Represents a student object and stores student information.
+
+StudentManager Class
+
+Performs operations such as adding, searching, updating, deleting, and displaying student records.
+
+9. Object-Oriented Programming Concepts Used
+Encapsulation
+
+Student data is stored in private variables and accessed using getter and setter methods.
+
+Inheritance
+
+Inheritance allows one class to inherit properties and methods from another class if implemented.
+
+Polymorphism
+
+Polymorphism enables methods to perform different tasks through method overloading or overriding.
+
+Abstraction
+
+Complex operations are hidden inside methods, making the system easier to understand and maintain.
+
+10. System Modules
+Student Module
+
+Responsible for storing student information such as:
+
+Student ID
+Name
+Age
+Department
+Record Management Module
+
+Responsible for:
+
+Adding students
+Updating students
+Deleting students
+Searching students
+Display Module
+
+Responsible for displaying:
+
+Student details
+Search results
+All student records
+User Input Module
+
+Receives and validates user input.
+
+11. Class Description
+Student Class
+Purpose
+
+Stores information about a student.
+
+Attributes
+studentId
+name
+age
+department
+Methods
+Constructor
+getStudentId()
+getName()
+getAge()
+getDepartment()
+setStudentId()
+setName()
+setAge()
+setDepartment()
+toString()
+StudentManager Class
+Purpose
+
+Manages all student records.
+
+Functions
+Add Student
+Search Student
+Update Student
+Delete Student
+Display Students
+Main Class
+Purpose
+
+Starts the application and displays the menu.
+
+12. Method Description
+addStudent()
+
+Adds a new student record to the system.
+
+searchStudent()
+
+Searches for a student using the student ID.
+
+updateStudent()
+
+Updates an existing student's information.
+
+deleteStudent()
+
+Deletes a student record from the system.
+
+displayStudents()
+
+Displays all available student records.
+
+13. System Flow
+Start the application.
+Display the main menu.
+User selects an option.
+Enter the required information.
+The system processes the request.
+Display the result.
+Return to the main menu.
+Exit when the user chooses.
+14. Testing
+Test Case	Expected Result	Status
+Add Student	Student is added successfully	Passed
+Search Student	Student information is displayed	Passed
+Update Student	Student information is updated	Passed
+Delete Student	Student record is removed	Passed
+Display Students	All student records are shown	Passed
+15. Advantages
+Easy to use.
+Reduces manual work.
+Fast access to student records.
+Improves data organization.
+Demonstrates Java OOP concepts.
+Easy to maintain and extend.
+16. Limitations
+Console-based interface only.
+Data is not permanently stored unless a database or file system is added.
+No user authentication.
+Designed for basic record management.
+17. Future Enhancements
+Add MySQL database integration.
+Create a graphical user interface (GUI).
+Add login and user authentication.
+Generate reports.
+Export records to PDF or Excel.
+Add backup and recovery features.
+18. Conclusion
+
+The Student Record System successfully fulfills its purpose of managing student information efficiently using Java. It demonstrates the practical application of Object-Oriented Programming concepts, including encapsulation, abstraction, inheritance, and polymorphism. The system simplifies record management by allowing users to add, search, update, delete, and display student records. Although it is a console-based application, it provides a strong foundation for future improvements such as database integration, graphical interfaces, and advanced features.
+
+19. References
+Oracle Java Documentation.
+Oracle Java Tutorials.
+GitHub Documentation.
+Object-Oriented Programming lecture notes.
+Java Programming textbooks and classroom materials.
+
+Prepared By: Ofijan Endale
+Student ID: 0302/25
+Date: Tuesday, June 16, 2026
